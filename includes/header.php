@@ -60,7 +60,7 @@ require_once __DIR__ . '/config.php';
                                     </li>
                                 <?php else: ?>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo BASE_URL; ?>login.php">Login</a>
+                                        <a class="nav-link" href="<?php echo BASE_URL; ?>/auth/login.php">Login</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="<?php echo BASE_URL; ?>/auth/register.php">Cadastrar</a>

@@ -1,0 +1,52 @@
+/* Estilos para o sistema de avaliação e comentários */
+
+/* Estrelas de avaliação */
+.stars-container {
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.stars-container .fa-star {
+    color: #e0e0e0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: color 0.2s ease;
+}
+
+.stars-container .fa-star:hover,
+.stars-container .fa-star.hover,
+.stars-container .fa-star.active {
+    color: #ffc107;
+}
+
+/* Adiciona um efeito de destaque para as estrelas à esquerda da que está com hover */
+.stars-container .fa-star.hover ~ .fa-star.hover {
+    color: #e0e0e0;
+}
+
+/* Estrelas em comentários */
+.comentario-estrelas .fa-star {
+    color: #e0e0e0;
+    font-size: 1rem;
+    margin-right: 2px;
+}
+
+.comentario-estrelas .fa-star.active {
+    color: #ffc107;
+}
+
+/* Comentários */
+.comentario {
+    position: relative;
+}
+
+.comentario:last-child {
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.comentario .text-muted {
+    font-size: 0.85rem;
+}

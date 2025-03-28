@@ -14,7 +14,7 @@ define('DB_PASS', ''); // Altere conforme suas credenciais
 define('DB_NAME', 'catalogo_filmes');
 
 // Configurações de URL e caminhos
-define('BASE_URL', 'http://localhost/Projeto%20Rabelo'); // Ajuste conforme seu ambiente
+define('BASE_URL', 'http://localhost/Projeto_Rabelo'); // Ajuste conforme seu ambiente
 define('UPLOAD_DIR', __DIR__ . '/../assets/images/uploads/');
 
 // Configurações de sessão
